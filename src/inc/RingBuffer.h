@@ -138,7 +138,6 @@ private:
     CRingBuffer(const CRingBuffer& that);
 
     int m_iBuffLength;              //!< length of the internal buffer
-    //BELOW IS OWN
     int m_iWriteInd;
     int m_iReadInd;
     T* m_iBuffData;
